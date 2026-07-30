@@ -34,6 +34,13 @@ Circuit_Diagram
 Documentation
 Presentation
 
+## Working
+1. DHT22 sensors continuously monitor temperature.
+2. ESP32 processes sensor readings.
+3. If the temperature exceeds the threshold, the Peltier cooling module is activated.
+4. The system updates the Blynk dashboard in real time.
+5. GSM sends an alert message if abnormal conditions persist.
+
 ## Future Improvements
 - Cloud Database
 - AI Prediction
@@ -41,3 +48,4 @@ Presentation
 
 ## Author
 Hadiya Khan
+Electronics and Communication Engineering
